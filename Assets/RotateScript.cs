@@ -5,7 +5,12 @@ using UnityEngine;
 public class RotateScript : MonoBehaviour
 {
     public float speed = 100f;
+    Vector3 change;
 
+    private void Start()
+    {
+        
+    }
     void Update()
     {
         if (Input.GetMouseButton(0))

@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.tag == "Teleport")
         {
-            player.transform.position = new Vector3(10f, 10f, 25f);
+            player.transform.position = new Vector3(0f, 0f, 28f);
         }
     }
 

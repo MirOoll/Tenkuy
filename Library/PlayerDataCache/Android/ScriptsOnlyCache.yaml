@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - CameraMovement
     - PlayerMovement
     - Restart
+    - RotateScript
     - Rotator
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -52,30 +53,34 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11154}
+      Script: {instanceID: 11152}
     - Class: 114
-      Script: {instanceID: 11312}
+      Script: {instanceID: 11310}
     - Class: 114
-      Script: {instanceID: 11352}
+      Script: {instanceID: 11350}
     - Class: 114
-      Script: {instanceID: 11734}
+      Script: {instanceID: 11732}
     - Class: 114
-      Script: {instanceID: 11784}
+      Script: {instanceID: 11782}
     - Class: 114
-      Script: {instanceID: 12120}
+      Script: {instanceID: 12062}
     - Class: 114
-      Script: {instanceID: 12596}
+      Script: {instanceID: 12116}
     - Class: 114
-      Script: {instanceID: 12896}
+      Script: {instanceID: 12282}
     - Class: 114
-      Script: {instanceID: 12948}
+      Script: {instanceID: 12594}
     - Class: 114
-      Script: {instanceID: 21080}
+      Script: {instanceID: 12626}
     - Class: 114
-      Script: {instanceID: 29412}
+      Script: {instanceID: 12894}
+    - Class: 114
+      Script: {instanceID: 12946}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
@@ -322,6 +327,12 @@ ScriptsOnlyBuild:
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
+      Hash: 02c742c80370e379428b0f3f95e39195
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Restart
+  - hash:
+      serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -344,6 +355,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RotateScript
   - hash:
       serializedVersion: 2
       Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
@@ -416,6 +433,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 3f7d3eac3468685ef18425a40cd5b891
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Rotator
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -530,19 +553,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: f999b83c2971127ff2af3002738cee44
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Restart
-  - hash:
-      serializedVersion: 2
-      Hash: 3f7d3eac3468685ef18425a40cd5b891
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Rotator
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/UnityProgects/Tenkuy/Build_0.1.apk
+  playerPath: D:/UnityProgects/Tenkuy/VoloshinRus.apk
